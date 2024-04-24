@@ -1,0 +1,346 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	
+	
+	background-image: url("../background.png");
+    background-position: center;
+	background-attachment: fixed;
+	font-family:"Times New Roman";
+	font-size: 20px; /*1em=20px*/
+	margin: 0;
+}
+#top {
+	width: 60em;
+	height: 10em;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+/*	background-color:aquamarine;*/
+}
+#top #img1 {
+	position: relative;
+	width: 15em;
+	margin-top: 2em;
+	margin-left: 1em;
+
+	
+}
+
+#menu {
+	position: relative;
+	list-style-type: none;
+	width: 28em;
+    float:right;
+	margin-top:4em;
+/*	background-color:aliceblue;*/
+}
+#menu li {
+	position: relative;
+	float: left;
+	
+	width: 7em;
+	text-align: center;
+	
+/*	background-color: cornflowerblue;*/
+	
+}
+#menu li a {
+	background-color:#D1107C;
+	display: block;
+	border-radius: 1em;
+	border: white solid thin;
+	padding: 0.4em 0;
+	font-size: 0.8em;
+	color: #FFF;
+	text-decoration: none;
+	
+	
+}
+ #menu li a:hover {
+	background-color:#17AA2D;
+	text-decoration:underline;
+}
+#content {
+	width: 60em;
+	height: 50em;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+/*	background-color: coral;*/
+}
+#content #text{
+	position: relative;
+	float: left;
+	font-size: 1.5em;
+	text-align: left;
+	margin-left: 1em;
+	margin-right: 5em;
+	color: darkcyan;
+	
+	/*background-color: cornflowerblue;*/
+}
+#table{
+	position: relative;
+	text-align: center;
+	margin-top: 2em;
+	margin-left: 6em;
+	color: darkcyan;
+	background-color: #FFFFFF;
+}
+#content #text1{
+	position: relative;
+	float: left;
+	font-size: 1.5em;
+	text-align: left;
+	margin-left: 1em;
+	margin-right: 5em;
+	margin-top: 1em;
+	color: darkcyan;
+	
+	/*background-color: cornflowerblue;*/
+}
+#pic1{
+	position: relative;
+	margin-top: 4em;
+/*	background-color: cornflowerblue;*/
+}
+#glow{
+	position: relative;
+	margin-left: 2em;
+	
+	width: 12em;
+	height: 12em;
+	border-radius: 2em;
+}
+#glow1{
+	position: relative;
+	margin-left: 2em;
+	
+	width: 12em;
+	height: 12em;
+	border-radius: 2em;
+}
+#soap{
+	position: relative;
+	margin-left: 2em;
+	
+	width: 12em;
+	height: 12em;
+	border-radius: 2em;
+}
+#invitation{
+	position: relative;
+	margin-left: 2em;
+	
+	width: 12em;
+	height: 12em;
+	border-radius: 2em;
+}
+#txt{
+	position: relative;
+	margin-top: 1em;
+	
+}
+
+#p2{
+	position: relative;
+	text-decoration: underline;
+	font-size: 1.5em;
+	margin-left: 12em;
+	font-style: italic;
+	font-weight:bold;
+	color: darkcyan;
+
+}
+#p3{
+	position: relative;
+	text-decoration: underline;
+	font-size: 1.5em;
+	margin-left: 1em;
+	font-style: italic;
+	font-weight:bold;
+	color: darkcyan;
+}
+#arrow{
+	position: relative;
+	margin-left: 4em;
+	margin-bottom: 1em;
+}
+#card{
+	position: relative;
+
+	margin-left: 4em;
+	margin-top: 3em;
+	width: 20em;
+	
+}
+footer  {
+	background-color:#D1107C; 
+	width: 100%;
+	height: 2em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1.5em;
+	position: relative;
+	text-align: left;
+	padding: 0.5em 0 0.5em 1em;
+	color: #FFF;
+	
+}
+#support{
+	position: relative;
+	float: left;
+	margin-left: 2em;
+	margin-top: 0.1em;
+	text-decoration:underline;
+	
+}
+#insta{
+		position: relative;
+	width: 1.5em;
+	height: 1.5em;
+	float: left;
+	margin-left: 2em;
+}
+ #tiktok{
+		position: relative;
+	width: 1.5em;
+	height: 1.5em;
+	float:left;
+	}
+ #in{
+		position: relative;
+	width: 1.5em;
+	height: 1.5em;
+	float: left;
+	}
+ #mail{
+		position: relative;
+	width: 1.5em;
+	height: 1.5em;
+	float: left;
+/*	margin-left: 0.5em;*/
+	
+	
+}
+footer #p{
+	position: relative;
+	margin-left: 18em;
+	color:#FFF;
+	text-decoration:underline;
+}
+footer #p1{
+	position: relative;
+	margin-left: 26em;
+	color:#FFF;
+	text-decoration:underline;
+}
+@media only screen and (max-width:850px){
+	body {
+		font-size: 13px;
+	}
+	footer {
+		width:120%;
+/*		height: 100%;*/
+		margin-top: 10%;
+			
+	}	
+footer #p{
+	
+	margin-left: 10%;
+
+		margin-top: 4%;
+	
+}
+ footer #p1{
+
+	margin-left: 20%;
+
+}
+}
+@media only screen and (max-width:600px){
+	body {
+		font-size: 18px;
+	}
+	#top {
+		width: 100%;
+		height: auto;
+		overflow: auto;
+	}
+	#top #img1 {
+		position: relative;
+		width: 70%;
+		margin-left: 20%;
+		
+	}
+	#menu {
+		width: 70%;
+		margin-top: 0%;
+	}
+	#menu li {
+		width: 70%;
+	
+		margin-left:0%;
+		
+	}
+	#content {
+	width: 80%;
+	height: auto;
+
+	position: relative;
+/*	background-color: coral;*/
+}
+	#txt{
+	position: relative;
+	margin-top: 0%;
+	
+}
+	#p2{
+			position: relative;
+	
+	margin-left: 5%;
+
+
+
+}
+#p3{
+		position: relative;
+	
+	margin-left: 5%;
+}
+	#arrow{
+	position: relative;
+	margin-left: 5%;
+	width: 20%;
+		
+}
+#card{
+	position: relative;
+
+	margin-left: 5%;
+	
+	width: 50%;
+	
+}
+
+footer {
+		width:120%;
+/*		height: 100%;*/
+		margin-top: 10%;
+			
+	}	
+footer #p{
+	
+	margin-left: 10%;
+
+		margin-top: 4%;
+	
+}
+ footer #p1{
+
+	margin-left: 20%;
+
+}
+}

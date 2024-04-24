@@ -1,0 +1,336 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	
+	background-image:url("../background.png");
+    background-position: center;
+	background-attachment: fixed;
+	font-family:"Times New Roman";
+	font-size: 20px; /*1em=20px*/
+	margin: 0;
+}
+#top {
+	width: 60em;
+	height: 10em;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	/*background-color:aquamarine;*/
+}
+#top #img1 {
+	position: relative;
+	width: 15em;
+	margin-top: 2em;
+	margin-left: 1em;
+
+	
+}
+
+#menu {
+	position: relative;
+	list-style-type: none;
+	width: 28em;
+    float:right;
+	margin-top:4em;
+	/*background-color:aliceblue;*/
+}
+#menu li {
+	position: relative;
+	float: left;
+	
+	width: 7em;
+	text-align: center;
+	
+	/*background-color: cornflowerblue;*/
+	
+}
+#menu li a {
+	background-color:#D1107C;
+	display: block;
+	border-radius: 1em;
+	border: white solid thin;
+	padding: 0.4em 0;
+	font-size: 0.8em;
+	color: #FFF;
+	text-decoration: none;
+	
+	
+}
+ #menu li a:hover {
+	background-color:#17AA2D;
+	text-decoration:underline;
+}
+
+
+
+#content {
+	width: 60em;
+	height: 50em;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	/*background-color: coral;*/
+}
+
+
+#content #text{
+	position: relative;
+	float: left;
+	font-size: 1.5em;
+	text-align: left;
+	margin-left: 1em;
+	margin-right: 9em;
+	color: darkcyan;
+	
+	/*background-color: cornflowerblue;*/
+}
+
+
+
+#pic1{
+	position: relative;
+	
+}
+#before{
+	position: relative;
+	margin-left: 5em;
+	margin-top: 1em;
+	width: 10em;
+	height: 10em;
+	border-radius: 2em;
+}
+#before1{
+	position: relative;
+	margin-left: 5em;
+	margin-top: 1em;
+	width: 10em;
+	height: 10em;
+	border-radius: 2em;
+}
+#before2{
+	position: relative;
+	margin-left: 5em;
+	margin-top: 1em;
+	width: 10em;
+	height: 10em;
+	border-radius: 2em;
+}
+#content #text1{
+	position: relative;
+	float: left;
+	font-size: 1.5em;
+	text-align: left;
+	margin-left: 1em;
+	margin-right: 9em;
+	margin-top: 1em;
+	color: darkcyan;
+	
+	/*background-color: cornflowerblue;*/
+}
+#pic2{
+	position: relative;
+	
+}
+#now{
+	position: relative;
+	margin-left: 5em;
+	margin-top: 1em;
+	width: 10em;
+	height: 10em;
+	border-radius: 2em;
+}
+#now1{
+	position: relative;
+	margin-left: 5em;
+	margin-top: 1em;
+	width: 10em;
+	height: 10em;
+	border-radius: 2em;
+}#now2{
+	position: relative;
+	margin-left: 5em;
+	margin-top: 1em;
+	width: 10em;
+	height: 10em;
+	border-radius: 2em;
+}
+
+#video{
+	position: relative;
+	float: left;
+	font-size: 1.5em;
+	text-align: left;
+	margin-left: 2em;
+	text-decoration: underline;
+	margin-top: 4em;
+	font-style: italic;
+	font-weight:bold;
+	color: #D1107C;
+/*	color: darkcyan;*/
+
+}
+
+footer  {
+	background-color:#D1107C; 
+	width: 100%;
+	height: 2em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1.5em;
+	position: relative;
+	text-align: left;
+	padding: 0.5em 0 0.5em 1em;
+	color: #FFF;
+	
+}
+#support{
+	position: relative;
+	float: left;
+	margin-left: 2em;
+	margin-top: 0.1em;
+	text-decoration:underline;
+	
+}
+#insta{
+		position: relative;
+	width: 1.5em;
+	height: 1.5em;
+	float: left;
+	margin-left: 2em;
+}
+ #tiktok{
+		position: relative;
+	width: 1.5em;
+	height: 1.5em;
+	float:left;
+	}
+ #in{
+		position: relative;
+	width: 1.5em;
+	height: 1.5em;
+	float: left;
+	}
+ #mail{
+		position: relative;
+	width: 1.5em;
+	height: 1.5em;
+	float: left;
+/*	margin-left: 0.5em;*/
+	
+	
+}
+footer #p{
+	position: relative;
+	margin-left: 18em;
+	color:#FFF;
+	text-decoration:underline;
+}
+footer #p1{
+	position: relative;
+	margin-left: 26em;
+	color:#FFF;
+	text-decoration:underline;
+}
+@media only screen and (max-width:850px){
+	body {
+		font-size: 13px;
+	}
+		footer {
+		width:120%;
+/*		height: 100%;*/
+		margin-top: 5%;
+			
+	}	
+footer #p{
+	
+	margin-left: 10%;
+
+		margin-top: 4%;
+	
+}
+ footer #p1{
+
+	margin-left: 20%;
+
+}
+}
+@media only screen and (max-width:600px){
+	body {
+		font-size: 18px;
+	}
+	#top {
+		width: 100%;
+		height: auto;
+		overflow: auto;
+	}
+	#top #img1 {
+		position: relative;
+		width: 70%;
+		margin-left: 20%;
+		
+	}
+	#menu {
+		width: 70%;
+		margin-top: 0%;
+	}
+	#menu li {
+		width: 70%;
+	
+		margin-left:0%;
+		
+	}
+	#content {
+	width: 80%;
+height: 100%;
+
+	position: relative;
+/*	background-color: coral;*/
+}
+#content #text{
+	position: relative;
+
+width: 100%;
+margin-top: 0%;
+	
+	
+	
+	/*background-color: cornflowerblue;*/
+}#content #text1{
+	position: relative;
+margin-top: 0%;
+width: 100%;
+
+	
+	
+	
+	/*background-color: cornflowerblue;*/
+}
+	#video{
+	position: relative;
+
+width: 100%;
+		
+margin-top: 10%;
+}
+				footer {
+		width:120%;
+		height: 100%;
+		margin-top: 30%;
+			
+	}	
+footer #p{
+	
+	margin-left: 10%;
+
+		margin-top: 4%;
+	
+}
+ footer #p1{
+
+	margin-left: 20%;
+
+}
+
+	
+}
